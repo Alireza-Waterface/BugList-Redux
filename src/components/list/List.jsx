@@ -13,7 +13,6 @@ const List = () => {
     const resolve = (id, btn) => {
         store.dispatch(actions.resolveBug(id));
         btn.setAttribute('data-resolved', 'true');
-        console.log(btn.getAttribute('data-resolved'));
     };
 
     const deleteBug = (id) => {
@@ -23,7 +22,6 @@ const List = () => {
     const unResolve = (id, btn) => {
         store.dispatch(actions.unResolveBug(id));
         btn.setAttribute('data-resolved', 'false');
-        console.log(btn.getAttribute('data-resolved'));
     };
 
     return (
