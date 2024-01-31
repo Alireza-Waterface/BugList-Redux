@@ -1,0 +1,15 @@
+.navbar {
+    height: 70px;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+    h1 {
+        letter-spacing: 1px;
+        font-weight: bolder;
+    }
+}
